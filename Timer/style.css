@@ -1,0 +1,113 @@
+body{
+    background: linear-gradient(to right,#4e1177,	#ff05ac )!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    flex-flow: column;
+}
+#timer{
+    background-color: black;
+    color: white;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    flex-flow: column;
+    border: 50px solid yellowgreen;
+}
+
+/* #timer:hover{
+    border: 50px solid yellowgreen;
+  
+} */
+
+#countdown{
+    font-size: 40px;
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: center;
+}
+
+#toggle{
+    background-color: rgb(184, 57, 116);
+    border-radius: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: small;
+    height: 20px;
+    border: 2px solid yellowgreen;
+     /* padding-bottom: 3px;
+     margin-bottom: 25px;*/
+    position: relative;
+    bottom: 30px;  
+} 
+
+#toggle:hover{
+    background-color: hotpink;
+}
+
+#watch{
+    display: flex;
+    flex-flow: column;
+    
+}
+
+#plus{
+    position: relative;
+    top: 45px;
+    left: 5px;
+}
+
+#minus{
+    position: relative;
+    top: -35px;
+    left: 5px;
+}
+
+img{
+    height: 30px;
+    width: 30px;
+}
+
+img:hover{
+    position: relative;
+    bottom: 5px;
+}
+
+#reset{
+    color: white; 
+    border: 2px solid yellowgreen;
+    border-radius: 30px;
+    border-radius: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: small;
+    height: 20px;
+    /* padding-right: 17px;
+    padding-left: 17px;
+    padding-bottom: 4px; */
+    position: relative;
+    bottom: 30px;  
+    background-color: black;
+    margin-left: 10px;
+}
+
+#reset:hover{
+   
+    border: 3px solid yellowgreen;
+}
+
+/* #reset:active{
+    color: black;
+    background-color: white;
+} */
+
+#options{
+    display: flex;
+    
+}
